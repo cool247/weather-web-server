@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>use this site to get your weather report</p>
+        <form>
+            <input type="text" placeholder="Location">
+            <button type="submit">Submit</button>
+        </form>
+        <p id='message-1' style="display: inline;"> </p>
+        <p id='message-2' style="display: inline;"></p>
+    </div>
+    {{>footer}}
+
+
+</body>
+<script src="./js/app.js"></script>
+
+</html>
