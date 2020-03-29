@@ -5,7 +5,7 @@ const forecast = require("./utils/forecast");
 const getLocation = require("./utils/getlocation");
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 //setup path provider
 const publicDirectoryPath = path.join(__dirname, "../public");
