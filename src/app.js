@@ -79,7 +79,7 @@ app.get("*", (req, res) => {
   res.render("404", {
     title: 404,
     name: "cindrella botwan",
-    errorMessage: "page not found"
+    errorMessage: "page not found!!"
   });
 });
 app.listen(port, () => console.log(` app listening on ${port} port!`));
