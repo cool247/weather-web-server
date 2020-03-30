@@ -66,7 +66,7 @@ app.get("/weather", (req, res) => {
           });
         }
         return res.send({
-          forecast: `It is currently ${data.currently.temperature} degree c out. There is a ${data.currently.precipProbability}% chance of rain.${data.timezone}`,
+          forecast: `It is currently ${data.currently.temperature} degree c out. There is a ${data.currently.precipProbability}% chance of rain.`,
           address: req.query.address,
           location: data.timezone
         });

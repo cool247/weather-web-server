@@ -14,7 +14,7 @@ weatherForm.addEventListener("submit", e => {
         messageTwo.innerHTML = data.error;
       } else {
         messageOne.innerHTML = `Forecast:        <h4>${data.forecast}<h4>`;
-        messageTwo.innerHTML = `Location:     <h4>${data.location}   address:${data.address}</h4> `;
+        messageTwo.innerHTML = `Location:     <h4>${data.location}</h4>   Address:      <h4>${data.address}</h4>`;
         search.value = "";
       }
     });
