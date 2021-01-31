@@ -1,5 +1,5 @@
 const rp = require("request-promise");
-const chalk = require("chalk");
+
 
 //getting location weather report using ordinates
 
